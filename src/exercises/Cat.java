@@ -39,6 +39,14 @@ public class Cat {
 		bluzie.printName();
 		// 3. Kill the Cat!
 		bluzie.kill();
+		bluzie.kill();
+		bluzie.kill();
+		bluzie.kill();
+		bluzie.kill();
+		bluzie.kill();
+		bluzie.kill();
+		bluzie.kill();
+		bluzie.kill();	
 	}
 }
 
