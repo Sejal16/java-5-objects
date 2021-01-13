@@ -1,4 +1,4 @@
-package exercises;
+package oops;
 
 public class Harry {
 
@@ -27,10 +27,15 @@ public class Harry {
 
 	public static void main(String[] args) {
 		// 1. make harry potter
+		Harry potter =new Harry();
 		// 2. become invisible
+		potter.makeInvisible(true);
 		// 3. spy on professor snape
+		potter.spyOnSnape();
 		// 4. become visible again
-		// 5. cast a “stupefy” spell
+		potter.makeInvisible(false);
+		// 5. cast a â€œstupefyâ€� spell
+		potter.castSpell("AAbra ka Dabra);
 	}
 
 }
